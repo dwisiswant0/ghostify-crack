@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="bulma.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome.min.css">
+    <link rel="stylesheet" href="brands.css">
+    <script src="fontawesome.min.js"></script>
+    <script src="brands.js"></script>
+    <script src="utils.js"></script>
+</head>
+<body>
+<div class="popup">
+    <div class="subtitle">
+        Ghostify - View Instagram stories anonymously
+    </div>
+    <div class="columns is-mobile">
+        <div class="column is-three-quarters">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fa-brands fa-instagram"></i>
+              </span>
+              <span id="enable-label">
+                Ghostify is disabled
+                  <br>
+              </span>
+            </span>
+        </div>
+        <div class="column">
+            <label class="switch">
+                <input type="checkbox" id="enable-toggle">
+                <span class="slider round"></span>
+            </label>
+        </div>
+    </div>
+
+    <div id="open-insta-section" class="is-hidden">
+        </br>
+        <p style="text-align: center">Now go to Instagram website to view stories anonymously</br> (You may need to log
+            in)
+        </p>
+        </br>
+        <div class="field is-grouped">
+            <p class="control is-expanded">
+            </p>
+            <a target="_blank" class="button is-info"
+               href="https://instagram.com">
+                Open Instagram </a></label>
+            <p class="control is-expanded">
+            </p>
+        </div>
+        </br>
+    </div>
+    <span id="subscription-plan-label" class="content has-text-grey has-text-weight-light is-small is-hidden"></span>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
